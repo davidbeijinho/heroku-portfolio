@@ -23,8 +23,8 @@ $params = array(
     'api_key'   => $pass,
     'to'        => 'davidbeijinho@gmail.com',
     'subject'   => $_POST['subject'],
-    'html'      => $_POST['name']+$_POST['message'],
-    'text'      => $_POST['name']+$_POST['message'],
+    'html'      => $_POST['name'] . $_POST['message'],
+    'text'      => $_POST['name'] . $_POST['message'],
     'from'      => $_POST['email'],
   );
 
