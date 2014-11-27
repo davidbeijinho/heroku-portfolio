@@ -48,6 +48,13 @@ $response = curl_exec($session);
 curl_close($session);
 
 // print everything out
+
+print_r( $_POST['subject']);
+print_r( $_POST['name']);
+print_r( $_POST['message']);
+print_r( $_POST['email']);
+
+
 print_r($response);
 
 
