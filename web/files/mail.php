@@ -49,7 +49,7 @@ curl_close($session);
 
 // print everything out
 
-print_r($params);
+//print_r($params);
 
 
 
