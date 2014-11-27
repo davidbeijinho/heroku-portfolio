@@ -22,10 +22,10 @@ $params = array(
     'api_user'  => $user,
     'api_key'   => $pass,
     'to'        => 'davidbeijinho@gmail.com',
-    'subject'   => 'heroku testing from curl',
-    'html'      => 'heroku testing body do heroku',
-    'text'      => 'heroku testing body',
-    'from'      => 'example@sendgrid.com',
+    'subject'   => $_POST['Subject'],
+    'html'      => $_POST['name']+$_POST['message'],
+    'text'      => $_POST['name']+$_POST['message'],
+    'from'      => $_POST['email'],
   );
 
 
